@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9f2ec;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 580px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main {
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h1 {
+    font-family: Fraunces;
+    font-size: 32px;
+}
+h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: hsl(228, 12%, 48%);
+}
+.sale-price {
+    font-family: Fraunces;
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+}
+.former-price {
+    font-family: Montserrat;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    Align-items: center;
+    gap: 16px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: #ffffff;
+}
+.text {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 0.5cm;
+    font-weight: 500;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+}
+.icon {
+    width: 12px;
+    height: 12px;
+}
